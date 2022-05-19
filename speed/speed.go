@@ -16,9 +16,17 @@ func Test() {
 	var start = time.Now()
 	var myList []int
 
+	// For Loop
 	for i := 0; i < 100000; i++{
 		myList = append(myList, rand.Intn(100))
 	}
+	
+	// Go equivalent While Loop in Python, No visible difference in speed with respect to For Loop
+	// var i = 0
+	// for i < 100000 {
+	// 	i++
+	// 	myList = append(myList, rand.Intn(100))
+	// }
 
 	sort.Ints(myList)
 	fmt.Println(time.Since(start))

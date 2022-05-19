@@ -1,3 +1,4 @@
+# Python equivalent to the Go calculator in the calculator package
 def subCal(num1, num2, sign):
     result = 0
     match sign:
@@ -13,7 +14,7 @@ def subCal(num1, num2, sign):
     return result
 
 
-if "__main__" == __name__:
+def calculator():
     num1 = int(input("Enter first number: "))
     sign = input("Enter sign, e.g +, -, /: ")
     num2 = int(input("Enter second number: "))
