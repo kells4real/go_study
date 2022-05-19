@@ -7,7 +7,7 @@ import (
 
 func Calculator() float64{
 	var result float64 = 0
-	var Result = &result // Used this just to get a feel of how pointers work.
+	var Result = &result // Used this just to get a basic un of how pointers work.
 	var num1 float64
 	var num2 float64
 	var sign string

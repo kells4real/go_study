@@ -17,7 +17,7 @@ func Test() {
 	var myList []int
 
 	// For Loop
-	for i := 0; i < 100000; i++{
+	for i := 0; i < 10000000; i++{
 		myList = append(myList, rand.Intn(100))
 	}
 	
