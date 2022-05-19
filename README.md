@@ -22,7 +22,7 @@ go run main.go
 ```
 ### The python codes on this repo are written on version 3.10, so there are some features used that may not be available for previous versions of python. You can edit these though if you are running a version lower than 3.10
 
-### According to the generic speed test I conducted on 3 popular programming languages (Python, Go, and Ruby), It showed that my preferred Language of choice, Python was the slowest by a mile. But would it sway me away though, never!. Below are the test results conducted. The programs looped through 10000000 appended a random number between 1 and 100 in an array/list and sorted this array before printing out the time it took to do complete the task. The test was run on a laptop with a corei3 10th Gen @1.20GHz 8GB ram(I don't think this matters though) on power saver mood.
+### According to the generic speed test I conducted on 3 popular programming languages (Python, Go, and Ruby), It showed that my preferred Language of choice, Python was the slowest by a mile. But would it sway me away though, never!. Below are the test results conducted. The programs looped through 10000000 appended a random number between 1 and 100 in an array/list and sorted this array before printing out the time it took to complete the task. The test was run on a laptop with a corei3 10th Gen @1.20GHz 8GB ram(I don't think this matters though) on power saver mood.
 
 ```
 python main.py
