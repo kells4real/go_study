@@ -7,3 +7,24 @@ def fibonacci(n)
         return fibonacci(n-1) + fibonacci(n-2)
     end
 end
+
+
+def subCal(num1, num2, sign)
+    result = 0
+    case sign
+    when "+"
+        result = num1 + num2
+    when "-"
+        result = num1 - num2
+    when "*", "X", "x"
+        result = num1 * num2
+    when "/"
+        result = num1 / num2
+    end
+end
+
+
+def calculator() 
+    puts ("Enter First Number")
+
+end

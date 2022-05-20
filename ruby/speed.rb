@@ -19,23 +19,3 @@ def speedTest()
     puts (((Time.now() - start).to_f * 1000)).round(4).to_s + "ms"
 
 end
-
-def subCal(num1, num2, sign)
-    result = 0
-    case sign
-    when "+"
-        result = num1 + num2
-    when "-"
-        result = num1 - num2
-    when "*", "X", "x"
-        result = num1 * num2
-    when "/"
-        result = num1 / num2
-    end
-end
-
-
-# def calculator() 
-#     puts ("Enter First Number")
-#     num1 = get
-# end

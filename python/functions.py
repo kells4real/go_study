@@ -6,3 +6,11 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n-1) + fibonacci(n-2)
+
+
+def arguments(*args):
+    h = []
+    for i in args:
+        h.append(i)
+    return h
+        
