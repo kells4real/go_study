@@ -1,4 +1,5 @@
 # Python equivalent to the Go calculator in the calculator package
+# From Python 3.10 you can now use the switch statement
 def subCal(num1, num2, sign):
     result = 0
     match sign:

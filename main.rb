@@ -13,4 +13,6 @@ end
 aList = ["GET", "POST", "PUT", "DELETE"]
 looped(aList)
 
+calculator()
+
 

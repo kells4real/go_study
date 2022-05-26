@@ -8,7 +8,7 @@ def fibonacci(n)
     end
 end
 
-
+# Using switch in ruby
 def subCal(num1, num2, sign)
     result = 0
     case sign
@@ -25,6 +25,24 @@ end
 
 
 def calculator() 
-    puts ("Enter First Number")
+    print "Enter First Number: "
+    num1 = gets()
+    print "Enter Second Number: "
+    num2 = gets()
+
+    result = subCal(num1, num2, sign)
+    puts result
+
+    while True
+        print "Enter sign, e.g +, -, /: "
+        sign = gets()
+        if sign.lower() == "exit"
+            break
+        else
+            num3 = int(input("Enter second number: "))
+            result = subCal(result, num3, sign)
+            print(result)
+        end
+    end
 
 end
