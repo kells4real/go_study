@@ -45,7 +45,7 @@ go run main.go
 ### From the result, you can see Go was 2X faster than Ruby, and 8X faster than Python. On the other hand, Ruby was almost 4X faster than Python and was actually faster when I switched the loops from for to while loops. Ruby came in at 1534.7823ms while the other two maintained the same result as their respective For Loops.
 
 
-### This test was merely for practice and is by no means a conclusion. Programming isn't always about speed, there are so many deciding factors. The first languages I ever looked into were Java & PHP, but I would forever be the Python guy as I love Python irrespective of it's shortcomings. Just learning how much fun Ruby and Go are to write with though, but still not as much fun it is writing Python.
+### This test was merely for practice and is by no means a conclusion. For example, while Ruby could be faster than Python, Django, one of the most known and robust web frameworks around, even though not considered as very fast, still manages to be faster than the Rails framework built with Ruby. Flask and FastApi are even considered to be faster than Django. Speed is only subjected to how a tool is written. Programming isn't always about speed, there are so many deciding factors. The first languages I ever looked into were Java & PHP, but I would forever be the Python guy as I love Python irrespective of it's shortcomings. Just learning how much fun Ruby and Go are to write with though, but still not as much fun it is writing Python.
 
 
 #### Will continually update this readme as I progress.
