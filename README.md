@@ -1,7 +1,7 @@
 
 # Go_STUDY
 
-### A bunch of random exercise, functions, logics, tests, algorithms, and tests while studying the Go programming language. This my journey of understanding the GoLang documented.
+### A bunch of random exercise, functions, logics, tests, algorithms, and tests while studying the Go programming language. This is my journey of understanding the GoLang documented.
 
 ###
 
