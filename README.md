@@ -1,11 +1,13 @@
 
 # Go_STUDY
 
-### A bunch of random exercise, functions, logics, tests, algorithms, and tests while studying the Go programming language. This is my journey of understanding the GoLang documented.
+## This repo is amied at showing new devs I teach and others like them to understand some of the basic and intermediate concepts of programming in general. While at the same time, learning the GoLang syntax and how it works. Teaching is of cos a very good way to learn.
+
+### A bunch of random exercise, functions, logics, tests, algorithms, and tests while studying the Go programming language. This is my journey of understanding the GoLang documented. 
 
 ###
 
-### I will be writing most of the logics, functions or algorithms in this repo in both Go and Python. I find that I learn even better when I'm studying a language while comparing it with a language I can already strongly type in. It helps me understand the language I am studying in contrast to the one I already know. I choose Python for this mainly because Python can be run almost anywhere on any project structure without having to setup anything. 
+### I will be writing most of the logics, functions or algorithms in this repo in Go, Ruby and Python. I find that I learn even better when I'm studying a language while comparing it with a language I can already strongly type in. It helps me understand the language I am studying in contrast to the one I already know. I choose Python and Ruby for this mainly because Python can be run almost anywhere on any project structure without having to setup anything extra. Ruby with the rails framework is equally easy to setup, that's in contrast to setting up the rails framweork though. 
 
 ### For example, if the project root folder is opened in visual studio code, you can run the python files directly by just typing in windows
 
